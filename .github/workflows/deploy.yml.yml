@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'  # Match your project's Node version
+
+      - name: Install Dependencies
+        run: cd frontend && npm ci  # Or yarn install
+
+      - name: Build
+        run: cd frontend && npm run build  # Or yarn build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: frontend/build  # Path to your build output
+          branch: gh-pages  # Deploys to this branch (auto-created)
