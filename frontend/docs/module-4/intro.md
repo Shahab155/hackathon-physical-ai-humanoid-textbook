@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Module 4: Vision-Language-Action (VLA)
 
-Welcome to Module 4 of our AI-Spec Driven Technical Book on Vision-Language-Action integration. This module explores how language, vision, and action converge to create autonomous humanoid behavior, culminating in a comprehensive understanding of voice-driven robotic systems.
+Welcome to Module 4 of our Physical AI & Humanoid Robotics Textbook on Vision-Language-Action integration. This module explores how language, vision, and action converge to create autonomous humanoid behavior, culminating in a comprehensive understanding of voice-driven robotic systems.
 
 ## Learning Objectives
 

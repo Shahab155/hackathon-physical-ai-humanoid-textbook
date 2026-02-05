@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Module 2: The Digital Twin (Gazebo & Unity)
 
-Welcome to Module 2 of our AI-Spec Driven Technical Book on simulation for Physical AI and Humanoid Robots. This module introduces you to physics simulation and environment building for humanoid robots, bridging digital models and real-world behavior.
+Welcome to Module 2 of our Physical AI & Humanoid Robotics Textbook on simulation for Physical AI and Humanoid Robots. This module introduces you to physics simulation and environment building for humanoid robots, bridging digital models and real-world behavior.
 
 ## Learning Objectives
 

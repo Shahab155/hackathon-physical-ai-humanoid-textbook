@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Module 3: The AI-Robot Brain (NVIDIA Isaac™)
 
-Welcome to Module 3 of our AI-Spec Driven Technical Book on AI-robot integration using NVIDIA Isaac. This module introduces you to advanced perception, navigation, and training for humanoid robots using NVIDIA Isaac, bridging AI models with physical robot behavior.
+Welcome to Module 3 of our Physical AI & Humanoid Robotics Textbook on AI-robot integration using NVIDIA Isaac. This module introduces you to advanced perception, navigation, and training for humanoid robots using NVIDIA Isaac, bridging AI models with physical robot behavior.
 
 ## Learning Objectives
 

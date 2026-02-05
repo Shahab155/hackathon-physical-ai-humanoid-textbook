@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Module 1: The Robotic Nervous System (ROS 2)
 
-Welcome to Module 1 of our AI-Spec Driven Technical Book on ROS 2 for Physical AI and Humanoid Robots. This module introduces you to ROS 2 as the middleware that enables communication and control in humanoid robots, forming the foundation for Physical AI.
+Welcome to Module 1 of our Physical AI & Humanoid Robotics Textbook on ROS 2 for Physical AI and Humanoid Robots. This module introduces you to ROS 2 as the middleware that enables communication and control in humanoid robots, forming the foundation for Physical AI.
 
 ## Learning Objectives
 

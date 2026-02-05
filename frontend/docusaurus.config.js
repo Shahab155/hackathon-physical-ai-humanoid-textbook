@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI-Spec Driven Technical Book',
-  tagline: 'ROS 2 - The Robotic Nervous System for Humanoid Robots',
+  title: 'Physical AI & Humanoid Robotics Textbook',
+  tagline: 'Physical AI & Humanoid Robotics - From Theory to Autonomous Systems',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -80,9 +80,9 @@ const config = {
       // SEO and meta tags configuration
       metadata: [
         {name: 'keywords', content: 'ROS2, robotics, AI, artificial intelligence, humanoid robots, middleware, docusaurus'},
-        {name: 'author', content: 'AI-Spec Driven Technical Book'},
+        {name: 'author', content: 'Physical AI & Humanoid Robotics Textbook'},
         {name: 'og:type', content: 'website'},
-        {name: 'og:site_name', content: 'AI-Spec Driven Technical Book'},
+        {name: 'og:site_name', content: 'Physical AI & Humanoid Robotics Textbook'},
       ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
@@ -90,18 +90,12 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'AI-Spec Driven Technical Book',
+        title: 'Physical AI & Humanoid Robotics Textbook',
         logo: {
           alt: 'ROS 2 Robot Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {
             type: 'dropdown',
             label: 'Modules',
@@ -113,13 +107,7 @@ const config = {
                 docId: 'module-1/intro',
               },
             ],
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {
