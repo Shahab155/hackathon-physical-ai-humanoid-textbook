@@ -20,11 +20,11 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://physical-ai-humanoid-textbook.vercel.app',
+  url: 'https://shahab155.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For Vercel deployment, keeping as '/' for root path
-  baseUrl: '/',
-  // For proper Vercel deployment, ensure trailing slash behavior is consistent
+  // For GitHub Pages deployment
+  baseUrl: '/hackathon-physical-ai-humanoid-textbook/',
+  // For proper GitHub Pages deployment, ensure trailing slash behavior is consistent
   trailingSlash: false,
 
   // Deployment configuration for Vercel
