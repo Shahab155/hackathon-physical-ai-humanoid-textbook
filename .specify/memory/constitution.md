@@ -1,13 +1,13 @@
 <!--
 Sync Impact Report:
-- Version change: N/A -> 1.0.0
-- Modified principles: None (new constitution)
-- Added sections: All sections added for the AI-Spec–Driven Technical Book project
-- Removed sections: None (new constitution)
-- Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
-- Follow-up TODOs: None
+- Version change: 1.0.0 -> 1.1.0
+- Modified principles: Project name updated in title (branding change)
+- Added sections: None
+- Removed sections: None
+- Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md, README.md, frontend files
+- Follow-up TODOs: Update UI-facing elements (navbar, hero, metadata) to reflect new project name
 -->
-# AI-Spec–Driven Technical Book with Integrated RAG Chatbot Constitution
+# Physical AI & Humanoid Robotics Textbook Constitution
 
 ## Core Principles
 
