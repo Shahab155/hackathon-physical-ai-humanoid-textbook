@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://physical-ai-humanoid-textbook.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // For Vercel deployment, keeping as '/' for root path
   baseUrl: '/',
+  // For proper Vercel deployment, ensure trailing slash behavior is consistent
+  trailingSlash: false,
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // Deployment configuration for Vercel
+  // GitHub pages deployment config removed for Vercel deployment
 
   onBrokenLinks: 'throw',
 
@@ -96,6 +96,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+         
           {
             type: 'dropdown',
             label: 'Modules',
@@ -107,7 +108,13 @@ const config = {
                 docId: 'module-1/intro',
               },
             ],
-          }
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
