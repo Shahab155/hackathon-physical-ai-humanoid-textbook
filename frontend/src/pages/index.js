@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://hackathon-physical-ai-humanoid-textbook.vercel.app/docs/module-1/intro">
+            to="/docs/module-1/intro">
             Start Reading 
           </Link>
         </div>
