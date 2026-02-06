@@ -20,17 +20,12 @@ const config = {
   },
 
   // Set the production url of your site here
-url: 'https://shahab155.github.io',
-baseUrl: '/hackathon-physical-ai-humanoid-textbook/',
-trailingSlash: false,
-
-organizationName: 'shahab155',
-projectName: 'hackathon-physical-ai-humanoid-textbook',
-deploymentBranch: 'gh-pages',
-
-
-  // Deployment configuration for Vercel
-  // GitHub pages deployment config removed for Vercel deployment
+  url: 'https://hackathon-physical-ai-humanoid-textbook.vercel.app',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For Vercel deployment
+  baseUrl: '/',
+  // For proper Vercel deployment, ensure trailing slash behavior is consistent
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -113,7 +108,7 @@ deploymentBranch: 'gh-pages',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/shahab155/hackathon-physical-ai-humanoid-textbook',
+            href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
